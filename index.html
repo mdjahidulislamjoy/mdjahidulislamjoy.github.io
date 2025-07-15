@@ -6,162 +6,99 @@
   <meta name="google-site-verification" content="pIXHSRrRol0ZzKhqmG74qYoD1laC3gxi0yqcb644tTg" />
   <title>Md. Jahidul Islam Joy - Programmer</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-    * {
-      box-sizing: border-box;
-      margin: 0; padding: 0;
-      font-family: 'Poppins', sans-serif;
-    }
     body {
-      background: #0f2027;  /* fallback for old browsers */
-      background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
-      color: #e0e0e0;
-      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #eee;
+      margin: 0;
+      padding: 40px 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      min-height: 100vh;
     }
-    .container {
-      background: #1a1a1a;
-      max-width: 900px;
-      width: 100%;
+    .card {
+      background: #1e1e1e;
+      padding: 30px;
       border-radius: 15px;
-      padding: 40px 30px;
-      box-shadow: 0 0 30px #00f0ffaa;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 0 20px #00f0ffaa;
       text-align: center;
     }
     img.profile-pic {
       width: 160px;
       height: 160px;
       border-radius: 50%;
-      border: 4px solid #00f0ff;
-      margin-bottom: 20px;
       object-fit: cover;
-      box-shadow: 0 0 15px #00f0ff88;
+      border: 4px solid #00e5ff;
+      box-shadow: 0 0 15px #00e5ff88;
+      margin-bottom: 20px;
     }
     h1 {
-      font-size: 2.8rem;
-      font-weight: 600;
       margin-bottom: 5px;
       color: #00e5ff;
       text-shadow: 0 0 10px #00f0ff;
     }
-    h2 {
-      font-weight: 300;
-      font-size: 1.3rem;
-      margin-bottom: 30px;
-      color: #33eaffcc;
+    p.title {
+      margin: 0 0 15px;
       font-style: italic;
+      color: #33eaffcc;
     }
     p.bio {
-      font-size: 1rem;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 0 auto 30px auto;
+      line-height: 1.5;
+      margin-bottom: 20px;
       color: #ccc;
     }
-    .contact-links a {
-      text-decoration: none;
+    a {
       color: #00d2ff;
-      border: 1.8px solid #00d2ff;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1.5px solid #00d2ff;
       padding: 10px 18px;
       border-radius: 25px;
-      margin: 0 10px;
+      transition: background 0.3s, color 0.3s;
+      margin: 0 8px;
       display: inline-block;
-      font-weight: 600;
-      transition: all 0.3s ease;
       box-shadow: 0 0 10px #00d2ff88;
     }
-    .contact-links a:hover {
+    a:hover {
       background: #00d2ff;
-      color: #111;
+      color: #121212;
       box-shadow: 0 0 20px #00ffff;
       transform: translateY(-3px);
     }
-    .skills {
-      margin-top: 40px;
-      text-align: left;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .skills h3 {
-      color: #00e5ff;
-      margin-bottom: 15px;
-      text-shadow: 0 0 5px #00ffff;
-    }
-    .skill-list {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      justify-content: center;
-    }
-    .skill-list li {
-      background: #007a8a;
-      padding: 10px 20px;
-      border-radius: 20px;
-      box-shadow: 0 0 15px #00bcd488;
-      font-weight: 600;
-      color: #e0f7fa;
-      font-size: 1rem;
-      user-select: none;
-      transition: 0.3s ease;
-    }
-    .skill-list li:hover {
-      background: #00bcd4;
-      box-shadow: 0 0 25px #00e5ff;
-      cursor: default;
-    }
     footer {
-      margin-top: 50px;
+      margin-top: 35px;
+      color: #555;
       font-size: 0.9rem;
-      color: #444;
       user-select: none;
     }
   </style>
 </head>
 <body>
-  <div class="container" role="main">
+  <div class="card" role="main">
     <img 
-      class="profile-pic" 
-      src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Md_Jahidul_Islam_Joy.jpg" 
+      src="https://commons.wikimedia.org/wiki/Special:FilePath/Md_Jahidul_Islam_Joy.jpg" 
       alt="Md. Jahidul Islam Joy" 
+      class="profile-pic" 
       loading="lazy" 
       width="160" height="160" 
     />
     <h1>Md. Jahidul Islam Joy</h1>
-    <h2>🇧🇩 Bangladeshi Programmer</h2>
-
+    <p class="title">🇧🇩 Bangladeshi Programmer</p>
+    <p><strong>Born:</strong> 14 November 2004, Hatiya, Noakhali</p>
     <p class="bio">
-      MD Jahidul Islam Joy, born November 14, 2004 in Hatiya, Noakhali, is a passionate programmer with expertise in C, Java, C++, and Python. Currently pursuing BSc in Computer Science and Engineering from Dhaka International University (DIU). Dedicated to AI, Data Science, and Machine Learning innovations.  
-      <br /><br />
-      Contact me at: <a href="mailto:mdjahidulislamjoy12@gmail.com" style="color:#00d2ff; text-decoration: underline;">mdjahidulislamjoy12@gmail.com</a>
+      MD Jahidul Islam Joy is a passionate programmer specializing in C, Java, C++, and Python. Currently pursuing BSc in Computer Science and Engineering from Dhaka International University (DIU). Dedicated to innovations in Artificial Intelligence, Data Science, and Machine Learning.
     </p>
 
-    <div class="contact-links" aria-label="Social and Contact Links">
+    <div>
+      <a href="mailto:mdjahidulislamjoy12@gmail.com">Email Me</a>
       <a href="https://github.com/mdjahidulislamjoy" target="_blank" rel="noopener noreferrer">GitHub</a>
       <a href="https://bd.linkedin.com/in/md-jahidul-islam-joy-a956a521a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="mailto:mdjahidulislamjoy12@gmail.com">Email</a>
     </div>
 
-    <section class="skills" aria-labelledby="skills-title">
-      <h3 id="skills-title">Skills</h3>
-      <ul class="skill-list">
-        <li>C Programming</li>
-        <li>Java</li>
-        <li>C++</li>
-        <li>Python</li>
-        <li>Artificial Intelligence</li>
-        <li>Data Science</li>
-        <li>Machine Learning</li>
-      </ul>
-    </section>
-
-    <footer>
-      &copy; 2025 Md. Jahidul Islam Joy. All rights reserved.
-    </footer>
+    <footer>&copy; 2025 Md. Jahidul Islam Joy</footer>
   </div>
 </body>
 </html>
